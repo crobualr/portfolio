@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>WoW Semester Blog Posts</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+<body>
+	<nav class="navbar">
+		<div class="nav1" id="logo"><a href="index.html">Charlessia Robinson</a>
+		</div>
+		<div class="Navbar__Link Navbar__Link-toggle">
+	      <i class="fas fa-bars"></i>
+	    </div>
+		<div class="nav" id="nav_link1"><a href="about.html">About</a>
+		</div>
+		<div class="nav" id="nav_link2"><a href="blogs.html">Blog</a>
+		</div>
+	</nav>
+
+<h1>Blog Posts</h1><hr><br>
+<div class="blogbox">
+	<h3>What is Big Data and How has it become political?</h3>
+	<p>
+		Data has been a hot topic over the last few years. As more humans continue to become more connected 
+		all over the world, technological advancements have created a massive amount of data being stored 
+		across the Internet. We have seen major tech companies such as Facebook come under fire for its lack 
+		of transparency towards how they are distributing user information. So, why has Big Data caused such 
+		a stir of controversy from Silicon Valley to Capitol Hill?
+	</p>
+	<a class="btn" href="https://wowfall2020.londietmartin.com/?p=1010" target="_blank">Read More</a>
+</div>
+<div class="blogbox">
+	<h3>How to think Code? – A Guide to problem-solving with Code</h3>
+	<p>
+		Coding is 10% working and 90% thinking. Truthfully, it can be 90% understanding why the code is not working. 
+		In other words, you are just staring at the screen as if you have been bamboozled. That unpredictability 
+		might keep experienced developers on their toes, but for beginners this could be a breaking point. Before 
+		you feel the pressure to quit, I would suggest considering the ways in which your approaching code.
+	</p>
+	<a class="btn" href="https://wowfall2020.londietmartin.com/?p=33" target="_blank">Read More</a>
+</div>
+<div id="extra-space"></div>
+
+<script type="text/javascript">
+	function classToggle() {
+	  const navs = document.querySelectorAll('.nav')
+	  
+	  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+	}
+
+	document.querySelector('.Navbar__Link-toggle')
+	  .addEventListener('click', classToggle);
+</script>
+
+<footer>
+	Charlessia Robinson<br>
+	UALR Fall 2020 Semester<br>
+	Writing  on the Web 
+</footer>
+</body>
+</html>
